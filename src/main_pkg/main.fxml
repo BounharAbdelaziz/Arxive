@@ -47,7 +47,7 @@
             <Font name="Times New Roman Bold" size="24.0" />
          </font>
       </Label>
-      <Button layoutX="188.0" layoutY="245.0" mnemonicParsing="false" text="Lancer l'archivage" />
+      <Button layoutX="188.0" layoutY="245.0" mnemonicParsing="false" onAction="#startArxive" text="Lancer l'archivage" />
       <ProgressBar layoutX="189.0" layoutY="323.0" prefWidth="200.0" progress="0.0" />
       <Label layoutX="87.0" layoutY="324.0" text="Avancement" />
       <ListView layoutX="467.0" layoutY="93.0" prefHeight="304.0" prefWidth="285.0" />
