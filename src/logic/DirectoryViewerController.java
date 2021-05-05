@@ -1,19 +1,12 @@
-package main_pkg;
+package logic;
 
 import java.io.File;
 
-import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
-import javafx.scene.control.Button;
 import javafx.scene.control.TreeItem;
 import javafx.scene.control.TreeView;
 import javafx.scene.layout.BorderPane;
-import javafx.stage.DirectoryChooser;
-import javafx.stage.Stage;
 
 public class DirectoryViewerController {
 

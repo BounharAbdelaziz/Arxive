@@ -1,4 +1,4 @@
-package main_pkg;
+package alerts;
 
 import javafx.geometry.Pos;
 import javafx.scene.Scene;

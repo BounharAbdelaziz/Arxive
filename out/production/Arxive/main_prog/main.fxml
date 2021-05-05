@@ -36,7 +36,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane fx:id="content" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="428.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main_pkg.ArxiveController">
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="428.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="logic.ArxiveController">
    <children>
       <Button id="btnDossierRacine" fx:id="btnDossierRacine" layoutX="307.0" layoutY="112.0" mnemonicParsing="false" onAction="#getPathRacine" text="Selectionner" />
       <Button id="btnDossierDest" fx:id="btnDossierDest" layoutX="307.0" layoutY="180.0" mnemonicParsing="false" onAction="#getPathDest" text="Selectionner" />
@@ -57,5 +57,6 @@
       </Label>
       <CheckBox fx:id="deleteIfArxived" layoutX="132.0" layoutY="228.0" mnemonicParsing="false" onAction="#setDeleteIfArxived" text="Supprimer les fichiers une fois archivés" />
       <Button fx:id="bntActualiser" layoutX="317.0" layoutY="337.0" mnemonicParsing="false" onAction="#getFiles" prefHeight="18.0" prefWidth="82.0" text="Afficher" />
+      <Label fx:id="lblAvancement" layoutX="500.0" layoutY="284.0" text="Label" />
    </children>
 </AnchorPane>
